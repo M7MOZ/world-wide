@@ -1,8 +1,16 @@
-# React + Vite
+# World Wide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**World Wide** is a React application that allows users to document and save their trips and travels across the globe. Users can pin the countries they have visited or use their current location to mark their travels. Additionally, users can add notes to describe each trip and save them for future reference.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Map**: Pin the countries you've visited or use your current location to mark your travels.
+- **Trip Notes**: Add and save descriptive notes about each trip.
+- **Location-Based**: Utilize your current location to automatically pin your travels.
+- **Persistent Data**: Your trips and notes are saved so you can revisit them anytime.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **React Router**: For handling navigation between different views.
+- **Context API**: For managing global state across the application.
